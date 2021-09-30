@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "KorElectricity/1.0.0": {
+        "dependencies": {
+          "WordCloud": "1.0.0.3"
+        },
+        "runtime": {
+          "KorElectricity.dll": {}
+        }
+      },
+      "WordCloud/1.0.0.3": {
+        "runtime": {
+          "lib/net45/WordCloud.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KorElectricity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordCloud/1.0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-POXpxZmeM1QcSoRM6B3/0D9E8txhLhc15vzT6QaF7XTI+GjVQ7qKG8kUCUEQgCdrnit7qN82aONaexjvxavXDg==",
+      "path": "wordcloud/1.0.0.3",
+      "hashPath": "wordcloud.1.0.0.3.nupkg.sha512"
+    }
+  }
+}

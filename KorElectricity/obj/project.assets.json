@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "WordCloud/1.0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/WordCloud.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WordCloud.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordCloud/1.0.0.3": {
+      "sha512": "POXpxZmeM1QcSoRM6B3/0D9E8txhLhc15vzT6QaF7XTI+GjVQ7qKG8kUCUEQgCdrnit7qN82aONaexjvxavXDg==",
+      "type": "package",
+      "path": "wordcloud/1.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WordCloud.dll",
+        "wordcloud.1.0.0.3.nupkg.sha512",
+        "wordcloud.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "WordCloud >= 1.0.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jeong\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jeong\\Desktop\\KorElectricity\\KorElectricity\\KorElectricity.csproj",
+      "projectName": "KorElectricity",
+      "projectPath": "C:\\Users\\Jeong\\Desktop\\KorElectricity\\KorElectricity\\KorElectricity.csproj",
+      "packagesPath": "C:\\Users\\Jeong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jeong\\Desktop\\KorElectricity\\KorElectricity\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Jeong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Jeong\\Desktop\\WordCloud-master\\new": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "WordCloud": {
+            "target": "Package",
+            "version": "[1.0.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WordCloud 1.0.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WordCloud",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
